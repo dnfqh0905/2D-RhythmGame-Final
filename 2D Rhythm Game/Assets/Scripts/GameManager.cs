@@ -89,9 +89,9 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         // 터치가 1개 이상 발생하고 있다면
-        if(Input.touchCount>0)
+        if (Input.touchCount > 0)
         {
-            for(int i=0;i<Input.touchCount;i++)
+            for (int i = 0; i < Input.touchCount; i++)
             {
                 Touch tempTouch = Input.GetTouch(i);
                 if (tempTouch.phase == TouchPhase.Began)
@@ -153,6 +153,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }*/
+
         // 사용자가 입력한 키 라인을 빛나게 처리
         if (Input.GetKey(KeyCode.D)) ShineTrail(0);
         if (Input.GetKey(KeyCode.F)) ShineTrail(1);

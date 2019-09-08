@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.MoonJeongYeop.RhythmGame"
     android:installLocation="preferExternal"
-    android:versionCode="3"
-    android:versionName="0.3" >
+    android:versionCode="4"
+    android:versionName="0.4" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -75,7 +75,7 @@
 
         <meta-data
             android:name="unity.build-id"
-            android:value="eb416847-0bd2-491b-8d0f-fd8264cdb233" />
+            android:value="a74a522d-9f14-47ed-8d35-33dc22776418" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

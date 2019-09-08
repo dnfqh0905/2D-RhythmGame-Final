@@ -1,6 +1,6 @@
 -o "Temp/StagingArea/strip/armeabi-v7a/UnityICallRegistration.o"
 -c "Temp/StagingArea/Il2Cpp/Managed/UnityICallRegistration.cpp"
---sysroot="C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/sysroot"
+--sysroot="C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/sysroot"
 -march=armv7-a
 -mfloat-abi=softfp
 -mfpu=neon-fp16

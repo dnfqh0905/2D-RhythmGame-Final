@@ -117,9 +117,7 @@ public class NoteController : MonoBehaviour
 
         public Rank(string emal, int score, double timestamp)
         {
-#pragma warning disable CS1717 // 같은 변수에 할당했습니다.
             this.email = email;
-#pragma warning restore CS1717 // 같은 변수에 할당했습니다.
             this.score = score;
             this.timestamp = timestamp;
 

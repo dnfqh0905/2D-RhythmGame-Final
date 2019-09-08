@@ -94,8 +94,8 @@ android {
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }
-        versionCode 3
-        versionName '0.3'
+        versionCode 4
+        versionName '0.4'
     }
 
     lintOptions {
@@ -109,7 +109,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('C:/Nexon/RhythmGame/2D Rhythm Game/user.keystore')
+            storeFile file('C:/Nexon/2D-RhythmGame-Final/2D Rhythm Game/user.keystore')
             storePassword 'moon4829@'
             keyAlias 'key'
             keyPassword 'moon4829@'

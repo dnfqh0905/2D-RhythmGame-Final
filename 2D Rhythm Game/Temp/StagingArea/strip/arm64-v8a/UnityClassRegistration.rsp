@@ -1,6 +1,6 @@
 -o "Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.o"
 -c "Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.cpp"
---sysroot="C:/Program Files/Unity/Hub/Editor/2019.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/sysroot"
+--sysroot="C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/sysroot"
 -march=armv8-a
 --target=aarch64-none-linux-android
 -D__ANDROID_API__=21
